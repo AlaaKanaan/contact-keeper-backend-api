@@ -6,6 +6,9 @@ const app = express();
 // connect database;
 connectDB();
 
+// Init MiddleWare, this to accept date from client usually POST
+app.use(express.json({extended: false}));
+
 app.get("/", (req, res) => res.json({msg: "Welcome"}));
 
 // Define Routes
