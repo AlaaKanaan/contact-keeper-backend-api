@@ -22,7 +22,7 @@ router.post('/', (req, res) => {
 // @desc    update contact
 // @access  Private
 
-router.put('/', (req, res) => {
+router.put('/:id', (req, res) => {
     res.send("update contact")
 });
 
@@ -30,7 +30,7 @@ router.put('/', (req, res) => {
 // @desc    delete contact
 // @access  Private
 
-router.delete('/', (req, res) => {
+router.delete('/:id', (req, res) => {
     res.send("delete contact")
 });
 
