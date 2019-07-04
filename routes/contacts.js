@@ -33,6 +33,7 @@ router.post(
                 .not()
                 .isEmpty(),
             check('type', 'Type must be personal or professional').isIn([
+                '',
                 'personal',
                 'professional'
             ])
