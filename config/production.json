@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://mongo_altlas_test:mongo1234@react-contact-keeper-cluster-uey21.gcp.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}
